@@ -1925,11 +1925,11 @@ pre code {
     text-align: center;
     height: 50vh;
     color: #ffffff;
-
+    background-image: url("../assets/img/header-bg.jpg") !important;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     background-attachment: fixed;
     background-position: center center;
-    background-size:  auto 100% !important;
+    background-size:  cover !important;
   }
 }
 @media (max-width: 767.98px) {
