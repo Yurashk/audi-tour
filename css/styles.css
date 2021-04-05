@@ -1927,7 +1927,7 @@ pre code {
     background-image: url("../assets/img/header-0bg.jpg") !important;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     background-repeat: no-repeat !important;
-    background-attachment: fixed !important;
+    background-attachment: scroll !important;
     -o-background-size: cover!important;
     -moz-background-size: cover !important;
     -webkit-background-size: cover !important;
