@@ -1923,13 +1923,19 @@ pre code {
 @media screen and (max-width: 992px) {
   .masthead {
     text-align: center;
-    height: 50vh;
+
     color: #ffffff;
     background-image: url("../assets/img/header-0bg.jpg") !important;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover !important;
+    height:100%;
+    width:100%;
   }
 }
 @media (max-width: 767.98px) {
