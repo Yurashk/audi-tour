@@ -10062,7 +10062,7 @@ img::-moz-selection {
   position: absolute;
   z-index: 1000;
   right:30px;
-  top:100px
+  bottom:50px
 }
 .engine-button{
   width: 90px;
